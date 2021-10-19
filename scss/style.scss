@@ -12,27 +12,116 @@ $Tertiaire: #99E2D0;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
     a{
         text-decoration: none;
     }
 }
 header{
-    padding: 10px 40px;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
+    h1{
+        position: relative;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
     span{
+        display: inline-block;
         color: #363636;
+        background-color: #ebebeb;
+        width: 100%;
+        padding: 15px;
+    }
+    h2, p, a{
+        padding: 10px 40px;
+        background-color: #f7f7f7;
     }
     a{
+        display: inline-block;
         background: linear-gradient($Secondaire, $Primaire);
         padding: 20px;
         margin: 20px;
         border-radius: 50px;
         color: white;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
     }
 }
 main{
-    padding: 0 20px
+    #fonctionnement{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        a{
+            background-color: #f7f7f7;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 30px;
+            span{
+                &:nth-child(1){
+                    display: inline-block;
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: white;
+                    background-color: #9355de;
+                    left: 10px;
+                }
+                &:nth-child(2){
+                    color: black;
+                    i{
+                        color: 7f7f7f;
+                    }
+                }
+            }
+        }
+    }
+    #restaurants{
+        padding: 60px 20px;
+        background-color: #f7f7f7;
+        article{
+            display: flex;
+            width: 100%;
+            height: 250px;
+            border-radius: 15px;
+            background-color: white;
+            margin: 2em 0;
+            a{
+                display: flex;
+                flex-direction: column;
+                color: black;
+                .new{
+                    align-self: flex-end;
+                    position: absolute;
+                    margin: 13px 11px;
+                    color: #038866;
+                    background-color: #9ae3d1;
+                    padding: 10px 12px;
+                }
+                .wrapper{
+                    height: 174px;
+                    max-width: 100%;
+                    overflow: hidden;
+                    img{
+                        object-fit: contain;
+                    }
+                }
+            }
+            input{
+                align-self: flex-end;
+                position: absolute;
+            }
+        }
+    }
+    /*  <article>
+            <a href="">
+                <div class="new">Nouveau</div>
+                <img src="./images/restaurants/palette.jpg" alt="">
+                <strong>La palette du goût</strong>
+                <p>Ménilmontant</p>
+            </a>
+            <input type="checkbox" name="heart">
+        </article>
+    */
 }
 footer{
     display: flex;
@@ -50,6 +139,10 @@ footer{
             color: white;
             &:hover{
                 color: grey;
+            }
+            i{
+                width: 1.2em;
+                margin-right: .5em;
             }
         }
     }
