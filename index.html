@@ -10,12 +10,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/logo/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body id="index">
     <header>
         <h1 class='shrikhand'>ohmyfood</h1>
-        
-        <span><i class="fas fa-map-marker-alt"></i> Paris, Belleville</span>
-        
+        <div id="geoloc"><i class="fas fa-map-marker-alt"></i> Paris, Belleville</div>
         <h2>Réservez le menu qui vous convient</h2>
         <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
         <a href="">Explorer nos restaurants</a>
@@ -39,38 +37,46 @@
         <div id="restaurants">
             <h2>Restaurants</h2>
             <article>
-                <a href="">
+                <a href="./restaurants/palette.html">
                     <div class="new">Nouveau</div>
                     <div class="wrapper"><img src="./images/restaurants/palette.jpg" alt=""></div>
                     <strong>La palette du goût</strong>
                     <p>Ménilmontant</p>
+                    <div class="checkbox">
+                        <input type="checkbox" id="heart1"/>
+                        <label for="heart1"><i class="fas fa-heart"></i></label>
+                    </div>
                 </a>
-                <input type="checkbox" name="heart">
             </article>
             <article>
-                <a href="">
+                <a href="./restaurants/noteEnChantee.html">
                     <div class="new">Nouveau</div>
                     <div class="wrapper"><img src="./images/restaurants/noteenchantee.jpg" alt=""></div>
                     <strong>La note enchantée</strong>
                     <p>Charonne</p>
+                    <div class="checkbox">
+                        <input type="checkbox" id="heart2"/>
+                        <label for="heart2"><i class="fas fa-heart"></i></label>
+                    </div>
                 </a>
-                <input type="checkbox" name="heart">
             </article>
             <article>
-                <a href="">
+                <a href="./restaurants/aLaFrancaise.html">
                     <div class="wrapper"><img src="./images/restaurants/alafrancaise.jpg" alt=""></div>
                     <strong>A la francaise</strong>
                     <p>Cité Rouge</p>
                 </a>
-                <input type="checkbox" name="heart">
+                <input type="checkbox" id="heart3"/>
+                <label for="heart3"><i class="fas fa-heart"></i></label>
             </article>
             <article>
-                <a href="">
+                <a href="./restaurants/leDelice.html">
                     <div class="wrapper"><img src="./images/restaurants/Ledelice.jpg" alt=""></div>
                     <strong>Le délice des sens</strong>
                     <p>Folie-Méricourt</p>
                 </a>
-                <input type="checkbox" name="heart">
+                <input type="checkbox" id="heart4"/>
+                <label for="heart4"><i class="fas fa-heart"></i></label>
             </article>
         </div>
     </main>
@@ -83,5 +89,8 @@
             <a href="">Contact</a>
         </div>
     </footer>
+    <div id="loading?">
+        <p class="shrikhand">OhMyFood! &#8205</p>
+    </div>
 </body>
 </html>

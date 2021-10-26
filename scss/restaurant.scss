@@ -1,0 +1,94 @@
+$Primaire: #9356DC;
+$Secondaire: #FF79DA;
+$Ternaire: #99E2D0;
+
+.restaurant{
+    header{
+        text-align: center;
+        h1{
+            margin: 22px 0;
+        }
+        a{
+            display: flex;
+            color: #363636;
+            float: left;
+            align-items: center;
+            height: 46.4px;
+            margin-left: 23px;
+            &:hover{
+                transition: 0.5s;
+                color: black;
+            }
+        }
+    }
+    main{
+        img{
+            z-index: -1;
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 258px;
+            object-fit: cover;
+        }
+        section{
+            padding: 0 14px;
+            h1, &>p{
+                margin-left: 5px;
+            }
+            background-color: #f7f7f7;
+            text-align: left;
+            margin-top: -38px;
+            border-radius: 38px 38px 0 0;
+            article{
+                display: block;
+                background-color: white;
+                border-radius: 13px;
+                margin: 7px 0;
+                cursor: pointer;
+                div{
+                    white-space: nowrap;
+                    padding: 12px 11px;
+                    float: left;
+                    background-color: white;
+                    width: 100%;
+                    p{
+                        font-weight: bold;
+                    }
+                    & span:nth-child(3){
+                        float: right;
+                    }
+                }
+                aside{
+                    float: right;
+                    background-color: #9ae3d1;
+                    color: white;
+                    width: 0;
+                    height: 100%;
+                }
+                &:hover{
+                    aside{
+                        transition: 0.5s linear;
+                        width: 59px;
+                    }
+                    & div{
+                        transition: 0.5s linear;
+                        width: 80%;
+                    }
+                }
+            }
+        }
+        div{
+            background-color: #f7f7f7;
+            button{
+                display: block;
+                color: white;
+                background: linear-gradient($Secondaire, $Primaire);
+                border-radius: 50px;
+                border: none;
+                height: 50px;
+                padding: 0 50px;
+                margin: 46px auto 58px auto;
+            }
+        }
+    }
+}
