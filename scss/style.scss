@@ -3,6 +3,9 @@
 
 @import "./index";
 @import "./restaurant";
+$Primaire: #9356DC;
+$Secondaire: #FF79DA;
+$Ternaire: #99E2D0;
 
 *{
     margin: 0;
@@ -20,28 +23,24 @@
     font-family: 'Shrikhand', cursive;
 }
 
-.checkbox{
-    input{
-        //display: none;
+input[type="checkbox"]{
+    appearance: none;
+    float: right;
+    &::after{
+        padding: 0 5px;
+        font-family: "Font Awesome 5 Free";
+        content: "\f004";
+        font-weight: 900;
+        font-size: 23px;
+        color: transparent;
+        -webkit-text-stroke: 1px black;
     }
-    label{
-        justify-content: center;
-        width: 23px;
-        height: 23px;
-        float: right;
-        color: white;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-        i{
-            width: 23px;
-            height: 23px;
-        }
-    }
-    & input:checked{
-        color: red;
-        label i{
-            color: red;
+    &:checked{
+        &::after{
+            -webkit-text-stroke: 0px black;
             background-clip: text;
-            background: linear-gradient(purple, orange);
+            -webkit-background-clip: text;
+            background-image: linear-gradient($Primaire, $Secondaire);
         }
     }
 }
@@ -81,7 +80,8 @@ footer{
     animation: loading 3s;
     *:first-child{
         margin: auto;
-        background-image: linear-gradient(to left,red, orange, yellow, green, blue, indigo, purple,red, orange, yellow, green, blue, indigo, purple,red, orange, yellow, green, blue, indigo, purple,red, orange, yellow, green, blue, indigo, purple);
+        background-image: linear-gradient(to left, $Primaire, $Secondaire, $Secondaire, $Ternaire, $Ternaire, $Primaire);
+        -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
         background-size: 600%;
