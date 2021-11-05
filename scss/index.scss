@@ -31,6 +31,25 @@ $Ternaire: #99E2D0;
         }
     }
     main{
+        display: flex;
+        @media screen and (max-width:800px) {
+            &{
+                flex-direction: column;
+            }
+        }
+        @media screen and (min-width:800px) {
+            &{
+                flex-direction: row;
+            }
+            & #fonctionnement{
+                width: 30%;
+            }
+            & #restaurants{
+                width: 70%;
+                border-radius: 30px;
+                margin: 1em;
+            }
+        }
         #fonctionnement{
             padding: 0 20px;
             display: flex;
@@ -72,6 +91,7 @@ $Ternaire: #99E2D0;
                 border-radius: 15px;
                 background-color: white;
                 margin: 2em 0;
+                box-shadow: rgba(0, 0, 0, 0.082) 0px 2px 5px;
                 a{
                     display: flex;
                     flex-direction: column;
@@ -93,15 +113,11 @@ $Ternaire: #99E2D0;
                             width: 100%;
                         }
                     }
-                    strong{
-                        margin: 20px 14px 0 14px;
-                        padding-bottom: 8px;
-                    }
-                    p{
-                        margin: 0 14px 20px 14px;
+                    .restaurants-card{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 17px 12px;
                         input{
-                            margin: 0 22px 31px 0;
-                            float: right;
                         }
                     }
                 }

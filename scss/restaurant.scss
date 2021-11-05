@@ -31,49 +31,32 @@ $Ternaire: #99E2D0;
             object-fit: cover;
         }
         section{
-            padding: 0 14px;
             h1, &>p{
                 margin-left: 5px;
             }
+            padding: 0 14px;
             background-color: #f7f7f7;
             text-align: left;
             margin-top: -38px;
             border-radius: 38px 38px 0 0;
             article{
                 display: block;
-                background-color: white;
                 border-radius: 13px;
                 margin: 7px 0;
                 cursor: pointer;
-                div{
-                    white-space: nowrap;
-                    padding: 12px 11px;
-                    float: left;
+                *{
                     background-color: white;
+                }
+                .menu-item{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    padding: 12px 11px;
                     width: 100%;
-                    p{
+                    .menu-title{
                         font-weight: bold;
                     }
-                    & span:nth-child(3){
-                        float: right;
-                    }
-                }
-                aside{
-                    float: right;
-                    background-color: #9ae3d1;
-                    color: white;
-                    width: 0;
-                    height: 100%;
                 }
                 &:hover{
-                    aside{
-                        transition: 0.5s linear;
-                        width: 59px;
-                    }
-                    & div{
-                        transition: 0.5s linear;
-                        width: 80%;
-                    }
                 }
             }
         }
