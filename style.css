@@ -11,7 +11,7 @@
 #index header #geoloc {
   color: #363636;
   background-color: #ebebeb;
-  padding: 15px;
+  padding: 15px 0;
 }
 #index header h2, #index header p, #index header a {
   padding: 10px 40px;
