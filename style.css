@@ -29,7 +29,7 @@
 #index main {
   display: flex;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 @media screen and (max-width: 800px) {
@@ -196,7 +196,7 @@
 }
 .restaurant main article div {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1300px;
 }
 .restaurant main article div section {
   max-width: 600px;
@@ -285,7 +285,7 @@
 @media screen and (min-width: 600px) {
   .restaurant article h1 {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto;
   }
   .restaurant article div:nth-child(2) {
@@ -293,7 +293,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     width: auto;
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto;
   }
   .restaurant article div:nth-child(2) section {
@@ -333,6 +333,7 @@ input[type=checkbox]::after {
   -webkit-text-stroke: 1px black;
 }
 input[type=checkbox]:checked::after {
+  transition: 1s;
   -webkit-text-stroke: 0px black;
   background-clip: text;
   -webkit-background-clip: text;
@@ -351,7 +352,7 @@ footer .wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1300px;
 }
 footer .wrapper p {
   margin: 20px 0;
