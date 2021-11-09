@@ -30,33 +30,80 @@ $Ternaire: #99E2D0;
             height: 258px;
             object-fit: cover;
         }
-        section{
-            h1, &>p{
+        article{
+            h1{
+                width: 100%;
+                margin-top: 30px;
                 margin-left: 5px;
+                input{
+                    margin-right: 25px;
+                }
             }
             padding: 0 14px;
             background-color: #f7f7f7;
             text-align: left;
             margin-top: -38px;
             border-radius: 38px 38px 0 0;
-            article{
-                display: block;
-                border-radius: 13px;
-                margin: 7px 0;
-                cursor: pointer;
-                *{
-                    background-color: white;
+            section{
+                & > p{
+                    text-transform: uppercase;
+                    margin-top: 30px;
+                    margin-left: 6px;
                 }
-                .menu-item{
+                .menu-card{
                     display: flex;
                     flex-wrap: nowrap;
-                    padding: 12px 11px;
-                    width: 100%;
-                    .menu-title{
-                        font-weight: bold;
+                    cursor: pointer;
+                    background-color: white;
+                    border-radius: 13px;
+                    max-height: 70px;
+                    margin-top: 14px;
+                    .menu-item{
+                        display: flex;
+                        flex-wrap: nowrap;
+                        justify-content: space-between;
+                        padding: 15px 10px;
+                        background-color: white;
+                        width: 100%;
+                        div {
+                            background-color: white;
+                            .menu-title{
+                                font-weight: bold;
+                            }
+                            p{
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                        }
+                        .price{
+                            display: flex;
+                            align-items: flex-end;
+                        }
                     }
-                }
-                &:hover{
+                    .animated-check{
+                        transition: 0.25s;
+                        display: flex;
+                        font-size: 20px;
+                        color: white;
+                        background-color: #9ae3d1;
+                        width: 0;
+                        height: 68px;
+                        i{
+                            transition: 0.25s;
+                            margin: auto;
+                            transform: rotate(0deg);
+                        }
+                    }
+                    &:hover{
+                        .animated-check{
+                            transition: 0.25s;
+                            width: 59px;
+                            i{
+                                transition: 0.25s;
+                                transform: rotate(360deg);
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -66,11 +113,24 @@ $Ternaire: #99E2D0;
                 display: block;
                 color: white;
                 background: linear-gradient($Secondaire, $Primaire);
+                cursor: pointer;
                 border-radius: 50px;
                 border: none;
                 height: 50px;
                 padding: 0 50px;
                 margin: 46px auto 58px auto;
+            }
+        }
+    }
+    @media screen and (min-width: 600px) {
+        article{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: auto;
+            section{
+                width: auto;
+                min-width: 600px;
             }
         }
     }
