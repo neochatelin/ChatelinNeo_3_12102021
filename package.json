@@ -1,0 +1,23 @@
+{
+  "name": "projet-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/style.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neochatelin/Ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neochatelin/Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/neochatelin/Ohmyfood#readme",
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}

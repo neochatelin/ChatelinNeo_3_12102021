@@ -31,76 +31,81 @@ $Ternaire: #99E2D0;
             object-fit: cover;
         }
         article{
-            h1{
-                width: 100%;
-                margin-top: 30px;
-                margin-left: 5px;
-                input{
-                    margin-right: 25px;
-                }
-            }
             padding: 0 14px;
             background-color: #f7f7f7;
             text-align: left;
             margin-top: -38px;
             border-radius: 38px 38px 0 0;
-            section{
-                & > p{
-                    text-transform: uppercase;
-                    margin-top: 30px;
-                    margin-left: 6px;
+            width: auto;
+            h1{
+                padding-top: 30px;
+                padding-left: 5px;
+                input{
+                    margin-right: 25px;
                 }
-                .menu-card{
-                    display: flex;
-                    flex-wrap: nowrap;
-                    cursor: pointer;
-                    background-color: white;
-                    border-radius: 13px;
-                    max-height: 70px;
-                    margin-top: 14px;
-                    .menu-item{
+            }
+            div{
+                width: 100%;
+                max-width: 1500px;
+                section{
+                    max-width: 600px;
+                    & > p{
+                        text-transform: uppercase;
+                        margin-top: 30px;
+                        margin-left: 6px;
+                    }
+                    .menu-card{
                         display: flex;
                         flex-wrap: nowrap;
-                        justify-content: space-between;
-                        padding: 15px 10px;
+                        cursor: pointer;
                         background-color: white;
-                        width: 100%;
-                        div {
-                            background-color: white;
-                            .menu-title{
-                                font-weight: bold;
-                            }
-                            p{
-                                text-overflow: ellipsis;
-                                white-space: nowrap;
-                            }
-                        }
-                        .price{
+                        border-radius: 13px;
+                        max-height: 70px;
+                        margin-top: 14px;
+                        .menu-item{
                             display: flex;
-                            align-items: flex-end;
+                            flex-wrap: nowrap;
+                            justify-content: space-between;
+                            padding: 15px 10px;
+                            background-color: white;
+                            width: 100%;
+                            div {
+                                background-color: white;
+                                .menu-title{
+                                    font-weight: bold;
+                                }
+                                p{
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                }
+                            }
+                            .price{
+                                display: flex;
+                                align-items: flex-end;
+                            }
                         }
-                    }
-                    .animated-check{
-                        transition: 0.25s;
-                        display: flex;
-                        font-size: 20px;
-                        color: white;
-                        background-color: #9ae3d1;
-                        width: 0;
-                        height: 68px;
-                        i{
-                            transition: 0.25s;
-                            margin: auto;
-                            transform: rotate(0deg);
-                        }
-                    }
-                    &:hover{
                         .animated-check{
                             transition: 0.25s;
-                            width: 59px;
+                            display: flex;
+                            font-size: 20px;
+                            color: white;
+                            background-color: #9ae3d1;
+                            width: 0;
+                            height: 68px;
                             i{
                                 transition: 0.25s;
-                                transform: rotate(360deg);
+                                margin: auto;
+                                transform: rotate(0deg);
+                            }
+                        }
+                        &:hover{
+                            .animated-check{
+                                transition: 0.25s;
+                                width: 59px;
+                                i{
+                                    transition: 0.25s;
+                                    transform: rotate(360deg);
+                                }
                             }
                         }
                     }
@@ -123,14 +128,23 @@ $Ternaire: #99E2D0;
         }
     }
     @media screen and (min-width: 600px) {
-        article{
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            width: auto;
-            section{
+        article {
+            h1{
+                width: 100%;
+                max-width: 1500px;
+                margin: 0 auto;
+            }
+            div:nth-child(2){
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
                 width: auto;
-                min-width: 600px;
+                max-width: 1500px;
+                margin: 0 auto;
+                section{
+                    width: auto;
+                    min-width: 600px;
+                }
             }
         }
     }

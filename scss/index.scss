@@ -62,6 +62,9 @@ $Ternaire: #99E2D0;
                 }
             }
         }
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
         #fonctionnement{
             display: flex;
             padding: 0 20px;
@@ -97,7 +100,7 @@ $Ternaire: #99E2D0;
                         border-radius: 50%;
                         color: white;
                         background-color: $Primaire;
-                        left: 10px;
+                        margin-left: -45px;
                     }
                     &:nth-child(2){
                         display: flex;

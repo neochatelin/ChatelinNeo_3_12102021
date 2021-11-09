@@ -44,16 +44,18 @@ input[type="checkbox"]{
         }
     }
 }
-
 footer{
     display: flex;
     background-color: #363636;
     margin: 0 auto;
     padding: 0 25px 20px 25px;
     color: white;
+    justify-content: center;
     .wrapper{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        max-width: 1500px;
         p{
             margin: 20px 0;
         }

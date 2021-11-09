@@ -1,1 +1,401 @@
-﻿@import"https://fonts.googleapis.com/css2?family=Shrikhand&display=swap";@import"https://fonts.googleapis.com/css2?family=Roboto&display=swap";#index header{text-align:center}#index header h1{padding:22px 0;position:relative;box-shadow:0px 0px 10px rgba(0,0,0,.3)}#index header #geoloc{color:#363636;background-color:#ebebeb;width:100%;padding:15px}#index header h2,#index header p,#index header a{padding:10px 40px;background-color:#f7f7f7}#index header a{display:inline-block;background:linear-gradient(#FF79DA, #9356DC);padding:20px;margin:20px;border-radius:50px;color:#fff;box-shadow:rgba(0,0,0,.15) 0px 5px 10px}#index main{display:flex}@media screen and (max-width: 800px){#index main{flex-direction:column}}@media screen and (min-width: 800px){#index main{flex-direction:row}#index main #fonctionnement{margin-top:37px;height:300px}#index main #restaurants{padding:20px 20px !important;border-radius:30px;margin:1em;width:auto}#index main #restaurants .resto-wrapper{display:flex;flex-wrap:wrap;justify-content:center}#index main #restaurants .resto-wrapper article{min-width:300px;max-width:400px;margin:1em auto !important}}#index main #fonctionnement{display:flex;padding:0 20px;flex-direction:column;min-width:300px;height:auto}#index main #fonctionnement h2{margin-bottom:34px}#index main #fonctionnement div{display:flex;align-items:center;cursor:default;min-height:72px;background-color:#f7f7f7;border-radius:17px;padding-left:35px;margin-bottom:25px}#index main #fonctionnement div:hover{transition:.2s;background-color:#f6eeff}#index main #fonctionnement div:hover span:nth-child(2) i{color:#9355de}#index main #fonctionnement div span:nth-child(1){display:inline-block;position:absolute;width:20px;height:20px;text-align:center;border-radius:50%;color:#fff;background-color:#9356dc;left:10px}#index main #fonctionnement div span:nth-child(2){display:flex;color:#000}#index main #fonctionnement div span:nth-child(2) i{height:16px;margin:auto;margin-right:20px;color:#7f7f7f}#index main #restaurants{padding:60px 20px;background-color:#f7f7f7}#index main #restaurants article{display:flex;flex-direction:column;width:100%;height:251px;border-radius:15px;background-color:#fff;margin:2em 0;box-shadow:rgba(0,0,0,.082) 0px 2px 5px}#index main #restaurants article a{display:flex;flex-direction:column;color:#000}#index main #restaurants article a .new{align-self:flex-end;position:absolute;margin:13px 11px;color:#038866;background-color:#9ae3d1;padding:10px 12px}#index main #restaurants article a .wrapper{height:174px;max-width:100%;overflow:hidden}#index main #restaurants article a .wrapper img{object-fit:contain;width:100%}#index main #restaurants article a .restaurants-card{display:flex;justify-content:space-between;padding:17px 12px}.restaurant header{text-align:center}.restaurant header h1{margin:22px 0}.restaurant header a{display:flex;color:#363636;float:left;align-items:center;height:46.4px;margin-left:23px}.restaurant header a:hover{transition:.5s;color:#000}.restaurant main img{z-index:-1;display:block;position:relative;width:100%;height:258px;object-fit:cover}.restaurant main article{padding:0 14px;background-color:#f7f7f7;text-align:left;margin-top:-38px;border-radius:38px 38px 0 0}.restaurant main article h1{width:100%;margin-top:30px;margin-left:5px}.restaurant main article h1 input{margin-right:25px}.restaurant main article section>p{text-transform:uppercase;margin-top:30px;margin-left:6px}.restaurant main article section .menu-card{display:flex;flex-wrap:nowrap;cursor:pointer;background-color:#fff;border-radius:13px;max-height:70px;margin-top:14px}.restaurant main article section .menu-card .menu-item{display:flex;flex-wrap:nowrap;justify-content:space-between;padding:15px 10px;background-color:#fff;width:100%}.restaurant main article section .menu-card .menu-item div{background-color:#fff}.restaurant main article section .menu-card .menu-item div .menu-title{font-weight:bold}.restaurant main article section .menu-card .menu-item div p{text-overflow:ellipsis;white-space:nowrap}.restaurant main article section .menu-card .menu-item .price{display:flex;align-items:flex-end}.restaurant main article section .menu-card .animated-check{transition:.25s;display:flex;font-size:20px;color:#fff;background-color:#9ae3d1;width:0;height:68px}.restaurant main article section .menu-card .animated-check i{transition:.25s;margin:auto;transform:rotate(0deg)}.restaurant main article section .menu-card:hover .animated-check{transition:.25s;width:59px}.restaurant main article section .menu-card:hover .animated-check i{transition:.25s;transform:rotate(360deg)}.restaurant main div{background-color:#f7f7f7}.restaurant main div button{display:block;color:#fff;background:linear-gradient(#FF79DA, #9356DC);cursor:pointer;border-radius:50px;border:none;height:50px;padding:0 50px;margin:46px auto 58px auto}@media screen and (min-width: 600px){.restaurant article{display:flex;justify-content:space-around;flex-wrap:wrap;width:auto}.restaurant article section{width:auto;min-width:600px}}*{margin:0;padding:0;font-family:"Roboto",sans-serif;overflow-x:hidden}* a{text-decoration:none}* body *{overflow-y:hidden}.shrikhand{font-family:"Shrikhand",cursive}input[type=checkbox]{appearance:none;float:right}input[type=checkbox]::after{padding:0 5px;font-family:"Font Awesome 5 Free";content:"";font-weight:900;font-size:23px;color:transparent;-webkit-text-stroke:1px #000}input[type=checkbox]:checked::after{-webkit-text-stroke:0px #000;background-clip:text;-webkit-background-clip:text;background-image:linear-gradient(#9356DC, #FF79DA)}footer{display:flex;background-color:#363636;margin:0 auto;padding:0 25px 20px 25px;color:#fff}footer .wrapper{display:flex;flex-direction:column}footer .wrapper p{margin:20px 0}footer .wrapper a{color:#fff}footer .wrapper a:hover{color:gray}footer .wrapper a i{width:1.2em;margin-right:.5em}#loading{display:flex;position:fixed;background-color:#fff;top:0;width:100%;height:0%;animation:loading 3s}#loading *:first-child{margin:auto;background-image:linear-gradient(to left, #9356DC, #FF79DA, #FF79DA, #99E2D0, #99E2D0, #9356DC);-webkit-background-clip:text;background-clip:text;color:transparent;background-size:600%;font-size:3.5em;animation:rainbowText 5s linear infinite}@keyframes loading{0%{height:100%}99%{height:100%}100%{height:0%}}@keyframes rainbowText{to{background-position:0%}from{background-position:100%}}/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+#index header {
+  text-align: center;
+}
+#index header h1 {
+  padding: 22px 0;
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+#index header #geoloc {
+  color: #363636;
+  background-color: #ebebeb;
+  width: 100%;
+  padding: 15px;
+}
+#index header h2, #index header p, #index header a {
+  padding: 10px 40px;
+  background-color: #f7f7f7;
+}
+#index header a {
+  display: inline-block;
+  background: linear-gradient(#FF79DA, #9356DC);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
+}
+#index main {
+  display: flex;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 800px) {
+  #index main {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 800px) {
+  #index main {
+    flex-direction: row;
+  }
+  #index main #fonctionnement {
+    margin-top: 37px;
+    height: 300px;
+  }
+  #index main #restaurants {
+    padding: 20px 20px !important;
+    border-radius: 30px;
+    margin: 1em;
+    width: auto;
+  }
+  #index main #restaurants .resto-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #index main #restaurants .resto-wrapper article {
+    min-width: 300px;
+    max-width: 400px;
+    margin: 1em auto !important;
+  }
+}
+#index main #fonctionnement {
+  display: flex;
+  padding: 0 20px;
+  flex-direction: column;
+  min-width: 300px;
+  height: auto;
+}
+#index main #fonctionnement h2 {
+  margin-bottom: 34px;
+}
+#index main #fonctionnement div {
+  display: flex;
+  align-items: center;
+  cursor: default;
+  min-height: 72px;
+  background-color: #f7f7f7;
+  border-radius: 17px;
+  padding-left: 35px;
+  margin-bottom: 25px;
+}
+#index main #fonctionnement div:hover {
+  transition: 0.2s;
+  background-color: #f6eeff;
+}
+#index main #fonctionnement div:hover span:nth-child(2) i {
+  color: #9355de;
+}
+#index main #fonctionnement div span:nth-child(1) {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #9356DC;
+  margin-left: -45px;
+}
+#index main #fonctionnement div span:nth-child(2) {
+  display: flex;
+  color: black;
+}
+#index main #fonctionnement div span:nth-child(2) i {
+  height: 16px;
+  margin: auto;
+  margin-right: 20px;
+  color: #7f7f7f;
+}
+#index main #restaurants {
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+}
+#index main #restaurants article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 251px;
+  border-radius: 15px;
+  background-color: white;
+  margin: 2em 0;
+  box-shadow: rgba(0, 0, 0, 0.082) 0px 2px 5px;
+}
+#index main #restaurants article a {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+#index main #restaurants article a .new {
+  align-self: flex-end;
+  position: absolute;
+  margin: 13px 11px;
+  color: #038866;
+  background-color: #9ae3d1;
+  padding: 10px 12px;
+}
+#index main #restaurants article a .wrapper {
+  height: 174px;
+  max-width: 100%;
+  overflow: hidden;
+}
+#index main #restaurants article a .wrapper img {
+  object-fit: contain;
+  width: 100%;
+}
+#index main #restaurants article a .restaurants-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 12px;
+}
+
+.restaurant header {
+  text-align: center;
+}
+.restaurant header h1 {
+  margin: 22px 0;
+}
+.restaurant header a {
+  display: flex;
+  color: #363636;
+  float: left;
+  align-items: center;
+  height: 46.4px;
+  margin-left: 23px;
+}
+.restaurant header a:hover {
+  transition: 0.5s;
+  color: black;
+}
+.restaurant main img {
+  z-index: -1;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 258px;
+  object-fit: cover;
+}
+.restaurant main article {
+  padding: 0 14px;
+  background-color: #f7f7f7;
+  text-align: left;
+  margin-top: -38px;
+  border-radius: 38px 38px 0 0;
+  width: auto;
+}
+.restaurant main article h1 {
+  padding-top: 30px;
+  padding-left: 5px;
+}
+.restaurant main article h1 input {
+  margin-right: 25px;
+}
+.restaurant main article div {
+  width: 100%;
+  max-width: 1500px;
+}
+.restaurant main article div section {
+  max-width: 600px;
+}
+.restaurant main article div section > p {
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-left: 6px;
+}
+.restaurant main article div section .menu-card {
+  display: flex;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 13px;
+  max-height: 70px;
+  margin-top: 14px;
+}
+.restaurant main article div section .menu-card .menu-item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 15px 10px;
+  background-color: white;
+  width: 100%;
+}
+.restaurant main article div section .menu-card .menu-item div {
+  background-color: white;
+}
+.restaurant main article div section .menu-card .menu-item div .menu-title {
+  font-weight: bold;
+}
+.restaurant main article div section .menu-card .menu-item div p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant main article div section .menu-card .menu-item .price {
+  display: flex;
+  align-items: flex-end;
+}
+.restaurant main article div section .menu-card .animated-check {
+  transition: 0.25s;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  background-color: #9ae3d1;
+  width: 0;
+  height: 68px;
+}
+.restaurant main article div section .menu-card .animated-check i {
+  transition: 0.25s;
+  margin: auto;
+  transform: rotate(0deg);
+}
+.restaurant main article div section .menu-card:hover .animated-check {
+  transition: 0.25s;
+  width: 59px;
+}
+.restaurant main article div section .menu-card:hover .animated-check i {
+  transition: 0.25s;
+  transform: rotate(360deg);
+}
+.restaurant main div {
+  background-color: #f7f7f7;
+}
+.restaurant main div button {
+  display: block;
+  color: white;
+  background: linear-gradient(#FF79DA, #9356DC);
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  height: 50px;
+  padding: 0 50px;
+  margin: 46px auto 58px auto;
+}
+@media screen and (min-width: 600px) {
+  .restaurant article h1 {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .restaurant article div:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: auto;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .restaurant article div:nth-child(2) section {
+    width: auto;
+    min-width: 600px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+* a {
+  text-decoration: none;
+}
+* body * {
+  overflow-y: hidden;
+}
+
+.shrikhand {
+  font-family: "Shrikhand", cursive;
+}
+
+input[type=checkbox] {
+  appearance: none;
+  float: right;
+}
+input[type=checkbox]::after {
+  padding: 0 5px;
+  font-family: "Font Awesome 5 Free";
+  content: "\f004";
+  font-weight: 900;
+  font-size: 23px;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+input[type=checkbox]:checked::after {
+  -webkit-text-stroke: 0px black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#9356DC, #FF79DA);
+}
+
+footer {
+  display: flex;
+  background-color: #363636;
+  margin: 0 auto;
+  padding: 0 25px 20px 25px;
+  color: white;
+  justify-content: center;
+}
+footer .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1500px;
+}
+footer .wrapper p {
+  margin: 20px 0;
+}
+footer .wrapper a {
+  color: white;
+}
+footer .wrapper a:hover {
+  color: grey;
+}
+footer .wrapper a i {
+  width: 1.2em;
+  margin-right: 0.5em;
+}
+
+#loading {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  height: 0%;
+  animation: loading 3s;
+}
+#loading *:first-child {
+  margin: auto;
+  background-image: linear-gradient(to left, #9356DC, #FF79DA, #FF79DA, #99E2D0, #99E2D0, #9356DC);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: 600%;
+  font-size: 3.5em;
+  animation: rainbowText 5s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    height: 100%;
+  }
+  99% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
+}
+@keyframes rainbowText {
+  to {
+    background-position: 0%;
+  }
+  from {
+    background-position: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
