@@ -48,7 +48,7 @@
   #index main #restaurants {
     padding: 20px 20px !important;
     border-radius: 30px;
-    margin: 1em;
+    margin: 1em 1em 3em 1em;
     width: auto;
   }
   #index main #restaurants .resto-wrapper {
@@ -223,6 +223,7 @@
   border-radius: 13px;
   max-height: 70px;
   margin-top: 14px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .restaurant main article div section .menu-card .menu-item {
   display: flex;
