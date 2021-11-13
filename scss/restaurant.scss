@@ -68,7 +68,8 @@ $Ternaire: #99E2D0;
                         flex-wrap: nowrap;
                         cursor: pointer;
                         background-color: white;
-                        border-radius: 13px;
+                        overflow-x: hidden;
+                        border-radius: 14px;
                         max-height: 70px;
                         margin-top: 14px;
                         box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 20%);
@@ -78,6 +79,7 @@ $Ternaire: #99E2D0;
                             justify-content: space-between;
                             padding: 15px 10px;
                             background-color: white;
+                            border-radius: 14px;
                             width: 100%;
                             div {
                                 background-color: white;
@@ -110,10 +112,11 @@ $Ternaire: #99E2D0;
                         }
                         &:hover{
                             .animated-check{
-                                transition: 0.25s;
+                                color: white;
+                                transition: 0.5s;
                                 width: 59px;
                                 i{
-                                    transition: 0.25s;
+                                    transition: 0.5s;
                                     transform: rotate(360deg);
                                 }
                             }
@@ -122,18 +125,20 @@ $Ternaire: #99E2D0;
                 }
             }
         }
-        div{
+        .button-wrapper{
             background-color: #f7f7f7;
+            padding: 46px 0 58px 0;
             button{
                 display: block;
                 color: white;
                 background: linear-gradient($Secondaire, $Primaire);
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
                 cursor: pointer;
                 border-radius: 50px;
                 border: none;
                 height: 50px;
                 padding: 0 50px;
-                margin: 46px auto 58px auto;
+                margin: 0 auto;
             }
         }
     }
