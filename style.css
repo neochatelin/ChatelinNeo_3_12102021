@@ -271,9 +271,10 @@
   display: flex;
   font-size: 20px;
   color: white;
+  overflow-x: hidden;
   background-color: #9ae3d1;
   width: 0;
-  height: 68px;
+  height: 69px;
 }
 .restaurant main article div section .menu-card .animated-check i {
   transition: 0.25s;
@@ -288,6 +289,35 @@
 .restaurant main article div section .menu-card:hover .animated-check i {
   transition: 0.5s;
   transform: rotate(360deg);
+}
+.restaurant main article div .menu-card:nth-child(2) {
+  opacity: 0;
+  animation: menu-anim 0.5s forwards;
+  animation-delay: 0.5s;
+}
+.restaurant main article div .menu-card:nth-child(3) {
+  opacity: 0;
+  animation: menu-anim 0.5s forwards;
+  animation-delay: 0.75s;
+}
+.restaurant main article div .menu-card:nth-child(4) {
+  opacity: 0;
+  animation: menu-anim 0.5s forwards;
+  animation-delay: 1s;
+}
+.restaurant main article div .menu-card:nth-child(5) {
+  opacity: 0;
+  animation: menu-anim 0.5s forwards;
+  animation-delay: 1.25s;
+}
+@keyframes menu-anim {
+  0% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 .restaurant main .button-wrapper {
   background-color: #f7f7f7;
