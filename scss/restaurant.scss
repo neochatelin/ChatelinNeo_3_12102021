@@ -124,12 +124,15 @@ $Ternaire: #99E2D0;
                         }
                     }
                 }
-                
-                @for $i from 2 to 6 {
-                    .menu-card:nth-child(#{$i}){
-                        opacity: 0;
-                        animation: menu-anim 0.5s forwards;
-                        animation-delay: 0.25s * $i;
+                @for $j from 1 to 4{
+                    section:nth-child(#{$j}){
+                        @for $i from 2 to 6 {
+                            .menu-card:nth-child(#{$i}){
+                                opacity: 0;
+                                animation: menu-anim 0.5s forwards;
+                                animation-delay: 0.25s * ($i+$j*3);
+                            }
+                        }
                     }
                 }
                 @keyframes menu-anim {
