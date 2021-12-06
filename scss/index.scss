@@ -5,17 +5,17 @@ $Ternaire: #99E2D0;
 #index{
     header{
         text-align: center;
-        h1{
+        .header__titre{
             padding: 22px 0;
             position: relative;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
         }
-        #geoloc{
+        .header__geoloc{
             color: #363636;
             background-color: #ebebeb;
             padding: 15px 0;
         }
-        & div:nth-child(3) {
+        .header__info {
             h2, p{
                 padding: 10px 40px;
             }
@@ -62,12 +62,12 @@ $Ternaire: #99E2D0;
                 border-radius: 30px;
                 margin: 1em 1em 3em 1em;
                 width: auto;
-                .resto-wrapper{
+                .restaurants__wrapper{
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
                     gap: 0 1em;
-                    article{
+                    .restaurants__card{
                         min-width: 300px;
                         max-width: 400px;
                         margin: 1em auto !important;
@@ -84,7 +84,7 @@ $Ternaire: #99E2D0;
             flex-direction: column;
             min-width: 300px;
             height: auto;
-            h2{
+            .fonctionnement__titre{
                 margin-bottom: 34px;
             }
             div {
@@ -142,7 +142,7 @@ $Ternaire: #99E2D0;
                 background-color: white;
                 margin: 2em auto;
                 box-shadow: rgba(0, 0, 0, 0.082) 0px 2px 5px;
-                .new{
+                .card__new{
                     align-self: flex-end;
                     position: absolute;
                     margin: 13px 11px;
@@ -150,7 +150,7 @@ $Ternaire: #99E2D0;
                     background-color: #9ae3d1;
                     padding: 10px 12px;
                 }
-                .wrapper{
+                .card__wrapper{
                     height: 174px;
                     max-width: 100%;
                     overflow: hidden;
@@ -160,11 +160,11 @@ $Ternaire: #99E2D0;
                         border-radius: 15px;
                     }
                 }
-                .restaurants-card{
+                .card__content{
                     display: flex;
                     justify-content: space-between;
                     padding: 17px 12px;
-                    .restaurants-item{
+                    .card__item{
                         display: flex;
                         flex-direction: column;
                         align-content: space-between;

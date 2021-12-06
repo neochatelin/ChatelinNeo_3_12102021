@@ -3,25 +3,25 @@
 #index header {
   text-align: center;
 }
-#index header h1 {
+#index header .header__titre {
   padding: 22px 0;
   position: relative;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
-#index header #geoloc {
+#index header .header__geoloc {
   color: #363636;
   background-color: #ebebeb;
   padding: 15px 0;
 }
-#index header div:nth-child(3) {
+#index header .header__info {
   background-color: #f7f7f7;
   padding-bottom: 57px;
   margin-bottom: 45px;
 }
-#index header div:nth-child(3) h2, #index header div:nth-child(3) p {
+#index header .header__info h2, #index header .header__info p {
   padding: 10px 40px;
 }
-#index header div:nth-child(3) button {
+#index header .header__info button {
   display: block;
   color: white;
   background: linear-gradient(#FF79DA, #9356DC);
@@ -64,13 +64,13 @@
     margin: 1em 1em 3em 1em;
     width: auto;
   }
-  #index main #restaurants .resto-wrapper {
+  #index main #restaurants .restaurants__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0 1em;
   }
-  #index main #restaurants .resto-wrapper article {
+  #index main #restaurants .restaurants__wrapper .restaurants__card {
     min-width: 300px;
     max-width: 400px;
     margin: 1em auto !important;
@@ -83,7 +83,7 @@
   min-width: 300px;
   height: auto;
 }
-#index main #fonctionnement h2 {
+#index main #fonctionnement .fonctionnement__titre {
   margin-bottom: 34px;
 }
 #index main #fonctionnement div {
@@ -140,7 +140,7 @@
   margin: 2em auto;
   box-shadow: rgba(0, 0, 0, 0.082) 0px 2px 5px;
 }
-#index main #restaurants article .new {
+#index main #restaurants article .card__new {
   align-self: flex-end;
   position: absolute;
   margin: 13px 11px;
@@ -148,22 +148,22 @@
   background-color: #9ae3d1;
   padding: 10px 12px;
 }
-#index main #restaurants article .wrapper {
+#index main #restaurants article .card__wrapper {
   height: 174px;
   max-width: 100%;
   overflow: hidden;
 }
-#index main #restaurants article .wrapper img {
+#index main #restaurants article .card__wrapper img {
   object-fit: contain;
   width: 100%;
   border-radius: 15px;
 }
-#index main #restaurants article .restaurants-card {
+#index main #restaurants article .card__content {
   display: flex;
   justify-content: space-between;
   padding: 17px 12px;
 }
-#index main #restaurants article .restaurants-card .restaurants-item {
+#index main #restaurants article .card__content .card__item {
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -445,22 +445,22 @@ footer {
   color: white;
   justify-content: center;
 }
-footer .wrapper {
+footer .footer__wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 1300px;
 }
-footer .wrapper p {
+footer .footer__wrapper p {
   margin: 20px 0;
 }
-footer .wrapper a {
+footer .footer__wrapper a {
   color: white;
 }
-footer .wrapper a:hover {
+footer .footer__wrapper a:hover {
   color: grey;
 }
-footer .wrapper a i {
+footer .footer__wrapper a i {
   width: 1.2em;
   margin-right: 0.5em;
 }

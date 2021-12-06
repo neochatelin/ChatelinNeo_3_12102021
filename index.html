@@ -12,9 +12,9 @@
 </head>
 <body id="index">
     <header>
-        <h1 class='shrikhand'>ohmyfood</h1>
-        <div id="geoloc"><i class="fas fa-map-marker-alt"></i> Paris, Belleville</div>
-        <div>
+        <h1 class='shrikhand header__titre'>ohmyfood</h1>
+        <div class="header__geoloc"><i class="fas fa-map-marker-alt"></i> Paris, Belleville</div>
+        <div class="header__info">
             <h2>Réservez le menu qui vous convient</h2>
             <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
             <button>Explorer nos restaurants</button>
@@ -22,8 +22,8 @@
     </header>
     <main>
         <div id="fonctionnement">
-            <h2>Fonctionnement</h2>
-            <div>
+            <h2 class="fonctionnement__titre">Fonctionnement</h2>
+            <div class="">
                 <span>1</span>
                 <span><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</span>
             </div>
@@ -38,13 +38,13 @@
         </div>
         <div id="restaurants">
             <h2>Restaurants</h2>
-            <div class="resto-wrapper">
-                <article>
-                        <div class="new">Nouveau</div>
-                        <div class="wrapper"><img src="./images/restaurants/palette.jpg" alt=""></div>
-                        <div class="restaurants-card">
+            <div class="restaurants__wrapper">
+                <article class="restaurants__card">
+                        <div class="card__new">Nouveau</div>
+                        <div class="card__wrapper"><img src="./images/restaurants/palette.jpg" alt=""></div>
+                        <div class="card__content">
                             <a href="./restaurants/palette.html">
-                            <div class="restaurants-item">
+                            <div class="card__item">
                                     <strong>La palette du goût</strong>
                                     <p>Ménilmontant</p>
                                 </div>
@@ -52,12 +52,12 @@
                             <input type="checkbox" name="heart1"/>
                         </div>
                 </article>
-                <article>
-                        <div class="new">Nouveau</div>
-                        <div class="wrapper"><img src="./images/restaurants/noteenchantee.jpg" alt=""></div>
-                        <div class="restaurants-card">
+                <article class="restaurants__card">
+                        <div class="card__new">Nouveau</div>
+                        <div class="card__wrapper"><img src="./images/restaurants/noteenchantee.jpg" alt=""></div>
+                        <div class="card__content">
                             <a href="./restaurants/noteEnChantee.html">
-                                <div class="restaurants-item">
+                                <div class="card__item">
                                     <strong>La note enchantée</strong>
                                     <p>Charonne</p>
                                 </div>
@@ -65,11 +65,11 @@
                             <input type="checkbox" name="heart2"/>
                         </div>
                 </article>
-                <article>
-                        <div class="wrapper"><img src="./images/restaurants/alafrancaise.jpg" alt=""></div>
-                        <div class="restaurants-card">
+                <article class="restaurants__card">
+                        <div class="card__wrapper"><img src="./images/restaurants/alafrancaise.jpg" alt=""></div>
+                        <div class="card__content">
                             <a href="./restaurants/aLaFrancaise.html">
-                                <div class="restaurants-item">
+                                <div class="card__item">
                                     <strong>A la francaise</strong>
                                     <p>Cité Rouge</p>
                                 </div>
@@ -77,11 +77,11 @@
                             <input type="checkbox" name="heart3"/>
                         </div>
                 </article>
-                <article>
-                        <div class="wrapper"><img src="./images/restaurants/Ledelice.jpg" alt=""></div>
-                        <div class="restaurants-card">
+                <article class="restaurants__card">
+                        <div class="card__wrapper"><img src="./images/restaurants/Ledelice.jpg" alt=""></div>
+                        <div class="card__content">
                             <a href="./restaurants/leDelice.html">
-                                <div class="restaurants-item">
+                                <div class="card__item">
                                     <strong>Le délice des sens</strong>
                                     <p>Folie-Méricourt</p>
                                 </div>
@@ -93,7 +93,7 @@
         </div>
     </main>
     <footer>
-        <div class="wrapper">
+        <div class="footer__wrapper">
             <p class='shrikhand'>ohmyfood</p>
             <a href=""><i class="fas fa-utensils"></i> Proposer un restaurant</a>
             <a href=""><i class="fas fa-hands-helping"></i> Devenir partenaire</a>
