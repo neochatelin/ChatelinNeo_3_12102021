@@ -350,22 +350,6 @@
     opacity: 100%;
   }
 }
-.restaurant main .button__wrapper {
-  background-color: #f7f7f7;
-  padding: 46px 0 58px 0;
-}
-.restaurant main .button__wrapper button {
-  display: block;
-  color: white;
-  background: linear-gradient(#FF79DA, #9356DC);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
-  cursor: pointer;
-  border-radius: 50px;
-  border: none;
-  height: 50px;
-  padding: 0 50px;
-  margin: 0 auto;
-}
 @media screen and (min-width: 600px) {
   .restaurant article h1 {
     width: 100%;
@@ -473,8 +457,8 @@ footer .footer__wrapper a i {
 }
 .pink-button:hover {
   transition: 0.25s;
-  background: linear-gradient(#fd95e0, #ba87f8);
-  box-shadow: black 0px 5px 20px;
+  background: linear-gradient(#ff80e0, #a060e0);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 20px;
 }
 
 #loading {

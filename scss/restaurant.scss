@@ -148,22 +148,6 @@ $Ternaire: #99E2D0;
                 }
             }
         }
-        .button__wrapper{
-            background-color: #f7f7f7;
-            padding: 46px 0 58px 0;
-            button{
-                display: block;
-                color: white;
-                background: linear-gradient($Secondaire, $Primaire);
-                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
-                cursor: pointer;
-                border-radius: 50px;
-                border: none;
-                height: 50px;
-                padding: 0 50px;
-                margin: 0 auto;
-            }
-        }
     }
     @media screen and (min-width: 600px) {
         article {
