@@ -205,10 +205,10 @@
   max-width: 1300px;
   overflow: hidden;
   margin: 0 auto;
+  gap: 20px;
 }
 .restaurant main section div article {
   margin: 0 14px 14px 14px;
-  max-width: 600px;
 }
 @media screen and (min-width: 628px) {
   .restaurant main section div article {
@@ -381,7 +381,7 @@
   }
   .restaurant section div:nth-child(2) article {
     width: auto;
-    min-width: 600px;
+    min-width: 560px;
   }
 }
 
