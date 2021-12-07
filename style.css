@@ -21,26 +21,6 @@
 #index header .header__info h2, #index header .header__info p {
   padding: 10px 40px;
 }
-#index header .header__info button {
-  display: block;
-  color: white;
-  background: linear-gradient(#FF79DA, #9356DC);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
-  cursor: pointer;
-  border-radius: 50px;
-  border: none;
-  height: 50px;
-  padding: 16px 20px 24px 20px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: medium;
-}
-#index header .header__info button:hover {
-  transition: 0.25;
-  background: linear-gradient(#fd95e0, #ba87f8);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
-}
 #index main {
   display: flex;
   width: auto;
@@ -470,6 +450,27 @@ footer .footer__wrapper a:hover {
 footer .footer__wrapper a i {
   width: 1.2em;
   margin-right: 0.5em;
+}
+
+.pink-button {
+  display: block;
+  color: white;
+  background: linear-gradient(#FF79DA, #9356DC);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  height: 50px;
+  padding: 16px 20px 24px 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: medium;
+}
+.pink-button:hover {
+  transition: 0.25s;
+  background: linear-gradient(#fd95e0, #ba87f8);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
 }
 
 #loading {

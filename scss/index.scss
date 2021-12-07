@@ -20,26 +20,6 @@ $Ternaire: #99E2D0;
                 padding: 10px 40px;
             }
             background-color: #f7f7f7;
-            button{
-                display: block;
-                color: white;
-                background: linear-gradient($Secondaire, $Primaire);
-                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
-                cursor: pointer;
-                border-radius: 50px;
-                border: none;
-                height: 50px;
-                padding: 16px 20px 24px 20px;
-                margin-top: 20px;
-                margin-left: auto;
-                margin-right: auto;
-                font-size: medium;
-                &:hover{
-                    transition: 0.25;
-                    background: linear-gradient(#fd95e0, #ba87f8);
-                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
-                }
-            }
             padding-bottom: 57px;
             margin-bottom: 45px;
         }
