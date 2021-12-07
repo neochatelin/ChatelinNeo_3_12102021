@@ -192,6 +192,7 @@
   margin-top: -38px;
   border-radius: 38px 38px 0 0;
   width: auto;
+  padding-bottom: 10px;
 }
 .restaurant main section h1 {
   padding: 0 14px;
@@ -359,7 +360,7 @@
 }
 .restaurant main .button__wrapper {
   background-color: #f7f7f7;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 83px;
 }
 .restaurant main .button__wrapper .pink-button {
