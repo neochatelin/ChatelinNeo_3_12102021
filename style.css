@@ -206,7 +206,7 @@
   overflow: hidden;
 }
 .restaurant main section div article {
-  margin: 0 14px 15px 14px;
+  margin: 0 auto 14px auto;
   max-width: 600px;
 }
 .restaurant main section div article > p {
