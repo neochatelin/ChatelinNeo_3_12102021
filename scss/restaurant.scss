@@ -47,6 +47,7 @@ $Ternaire: #99E2D0;
             div{
                 width: 100%;
                 max-width: 1300px;
+                overflow: hidden;
                 section{
                     max-width: 600px;
                     & > p{
@@ -63,7 +64,7 @@ $Ternaire: #99E2D0;
                             transform: translateY(2px);
                         }
                     }
-                    .menu-card{
+                    .menu__card{
                         display: flex;
                         flex-wrap: nowrap;
                         cursor: pointer;
@@ -73,7 +74,7 @@ $Ternaire: #99E2D0;
                         max-height: 70px;
                         margin-top: 14px;
                         box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 20%);
-                        .menu-item{
+                        .menu__item{
                             display: flex;
                             flex-wrap: nowrap;
                             justify-content: space-between;
@@ -83,11 +84,12 @@ $Ternaire: #99E2D0;
                             width: 100%;
                             div {
                                 background-color: white;
-                                .menu-title{
+                                .menu__title{
                                     font-weight: bold;
                                 }
                                 p{
                                     text-overflow: ellipsis;
+                                    overflow: hidden;
                                     white-space: nowrap;
                                 }
                             }
@@ -96,7 +98,7 @@ $Ternaire: #99E2D0;
                                 align-items: flex-end;
                             }
                         }
-                        .animated-check{
+                        .animated__check{
                             transition: 0.25s;
                             display: flex;
                             font-size: 20px;
@@ -112,7 +114,7 @@ $Ternaire: #99E2D0;
                             }
                         }
                         &:hover{
-                            .animated-check{
+                            .animated__check{
                                 color: white;
                                 transition: 0.5s;
                                 width: 59px;

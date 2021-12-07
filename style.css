@@ -36,6 +36,11 @@
   margin-right: auto;
   font-size: medium;
 }
+#index header .header__info button:hover {
+  transition: 0.25;
+  background: linear-gradient(#fd95e0, #ba87f8);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+}
 #index main {
   display: flex;
   width: auto;
@@ -70,7 +75,7 @@
     justify-content: center;
     gap: 0 1em;
   }
-  #index main #restaurants .restaurants__wrapper .restaurants__card {
+  #index main #restaurants .restaurants__wrapper .card {
     min-width: 300px;
     max-width: 400px;
     margin: 1em auto !important;
@@ -129,7 +134,7 @@
   padding: 60px 20px;
   background-color: #f7f7f7;
 }
-#index main #restaurants article {
+#index main #restaurants .card {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -140,7 +145,7 @@
   margin: 2em auto;
   box-shadow: rgba(0, 0, 0, 0.082) 0px 2px 5px;
 }
-#index main #restaurants article .card__new {
+#index main #restaurants .card .card__new {
   align-self: flex-end;
   position: absolute;
   margin: 13px 11px;
@@ -148,22 +153,22 @@
   background-color: #9ae3d1;
   padding: 10px 12px;
 }
-#index main #restaurants article .card__wrapper {
+#index main #restaurants .card .card__wrapper {
   height: 174px;
   max-width: 100%;
   overflow: hidden;
 }
-#index main #restaurants article .card__wrapper img {
+#index main #restaurants .card .card__wrapper img {
   object-fit: contain;
   width: 100%;
   border-radius: 15px;
 }
-#index main #restaurants article .card__content {
+#index main #restaurants .card .card__content {
   display: flex;
   justify-content: space-between;
   padding: 17px 12px;
 }
-#index main #restaurants article .card__content .card__item {
+#index main #restaurants .card .card__content .card__item {
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -214,6 +219,7 @@
 .restaurant main article div {
   width: 100%;
   max-width: 1300px;
+  overflow: hidden;
 }
 .restaurant main article div section {
   max-width: 600px;
@@ -232,7 +238,7 @@
   height: 3px;
   transform: translateY(2px);
 }
-.restaurant main article div section .menu-card {
+.restaurant main article div section .menu__card {
   display: flex;
   flex-wrap: nowrap;
   cursor: pointer;
@@ -243,7 +249,7 @@
   margin-top: 14px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.restaurant main article div section .menu-card .menu-item {
+.restaurant main article div section .menu__card .menu__item {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -252,21 +258,22 @@
   border-radius: 14px;
   width: 100%;
 }
-.restaurant main article div section .menu-card .menu-item div {
+.restaurant main article div section .menu__card .menu__item div {
   background-color: white;
 }
-.restaurant main article div section .menu-card .menu-item div .menu-title {
+.restaurant main article div section .menu__card .menu__item div .menu__title {
   font-weight: bold;
 }
-.restaurant main article div section .menu-card .menu-item div p {
+.restaurant main article div section .menu__card .menu__item div p {
   text-overflow: ellipsis;
+  overflow: hidden;
   white-space: nowrap;
 }
-.restaurant main article div section .menu-card .menu-item .price {
+.restaurant main article div section .menu__card .menu__item .price {
   display: flex;
   align-items: flex-end;
 }
-.restaurant main article div section .menu-card .animated-check {
+.restaurant main article div section .menu__card .animated__check {
   transition: 0.25s;
   display: flex;
   font-size: 20px;
@@ -276,17 +283,17 @@
   width: 0;
   height: 69px;
 }
-.restaurant main article div section .menu-card .animated-check i {
+.restaurant main article div section .menu__card .animated__check i {
   transition: 0.25s;
   margin: auto;
   transform: rotate(0deg);
 }
-.restaurant main article div section .menu-card:hover .animated-check {
+.restaurant main article div section .menu__card:hover .animated__check {
   color: white;
   transition: 0.5s;
   width: 59px;
 }
-.restaurant main article div section .menu-card:hover .animated-check i {
+.restaurant main article div section .menu__card:hover .animated__check i {
   transition: 0.5s;
   transform: rotate(360deg);
 }
