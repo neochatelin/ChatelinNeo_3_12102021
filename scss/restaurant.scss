@@ -151,7 +151,11 @@ $Ternaire: #99E2D0;
         }
         .button__wrapper{
             background-color: #f7f7f7;
-            margin-top: -20px;
+            padding-top: 30px;
+            padding-bottom: 83px;
+            .pink-button{
+                padding: 18px 50px 35px 50px;
+            }
         }
     }
     @media screen and (min-width: 600px) {
