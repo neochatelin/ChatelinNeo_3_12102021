@@ -246,7 +246,7 @@
   transition: 0.2s transform;
 }
 .restaurant main section div article .menu__card:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 .restaurant main section div article .menu__card .menu__item {
   display: flex;
