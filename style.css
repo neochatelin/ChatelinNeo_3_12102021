@@ -80,9 +80,11 @@
   background-color: #f7f7f7;
   border-radius: 17px;
   padding-left: 35px;
+  align-self: center;
   margin-bottom: 25px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   max-width: 300px;
+  width: 80%;
 }
 #index main #fonctionnement div:hover {
   transition: 0.2s;

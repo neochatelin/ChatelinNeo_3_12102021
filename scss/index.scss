@@ -79,9 +79,11 @@ $Ternaire: #99E2D0;
                 background-color: #f7f7f7;
                 border-radius: 17px;
                 padding-left: 35px;
+                align-self: center;
                 margin-bottom: 25px;
                 box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 20%);
                 max-width: 300px;
+                width: 80%;
                 &:hover{
                     transition: 0.2s;
                     background-color: #f6eeff;
