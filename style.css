@@ -194,7 +194,7 @@
   width: auto;
 }
 .restaurant main section h1 {
-  margin: 0 2%;
+  margin: 0 14px;
   padding-top: 30px;
   padding-left: 5px;
 }
@@ -208,7 +208,7 @@
   margin: 0 auto;
 }
 .restaurant main section div article {
-  margin: 0 auto 14px auto;
+  margin: 0 14px 14px 14px;
   max-width: 600px;
 }
 .restaurant main section div article > p {
@@ -241,7 +241,6 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   padding: 15px 10px;
-  background-color: white;
   border-radius: 14px;
   width: 100%;
 }
@@ -466,6 +465,7 @@ footer .footer__wrapper a i {
   margin-right: auto;
   font-size: medium;
   transition: 0.25s;
+  min-width: 190px;
 }
 .pink-button:hover {
   background: linear-gradient(#ff80e0, #a060e0);

@@ -92,6 +92,7 @@ footer{
     margin-right: auto;
     font-size: medium;
     transition: 0.25s;
+    min-width: 190px;
     &:hover{
         background: linear-gradient(#ff80e0, #a060e0);
         box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 20px;
