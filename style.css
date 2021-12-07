@@ -351,6 +351,10 @@
     opacity: 100%;
   }
 }
+.restaurant main .button__wrapper {
+  background-color: #f7f7f7;
+  margin-top: -20px;
+}
 @media screen and (min-width: 600px) {
   .restaurant article h1 {
     width: 100%;
