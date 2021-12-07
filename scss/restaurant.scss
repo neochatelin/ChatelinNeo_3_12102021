@@ -51,7 +51,6 @@ $Ternaire: #99E2D0;
                 max-width: 1300px;
                 overflow: hidden;
                 margin: 0 auto;
-                gap: 20px;
                 article{
                     margin: 0 14px 14px 14px;
                     @media screen and (min-width: 628px) {
@@ -185,6 +184,7 @@ $Ternaire: #99E2D0;
                 article{
                     width: auto;
                     min-width: 560px;
+                    margin: 0 20px 20px 20px;
                 }
             }
         }
