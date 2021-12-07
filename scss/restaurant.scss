@@ -37,7 +37,7 @@ $Ternaire: #99E2D0;
             border-radius: 38px 38px 0 0;
             width: auto;
             h1{
-                padding: 0 5px;
+                padding: 0 14px;
                 padding-top: 30px;
                 input{
                     margin-right: 25px;
@@ -164,7 +164,7 @@ $Ternaire: #99E2D0;
     @media screen and (min-width: 600px) {
         section {
             h1{
-                width: 100%;
+                width: auto;
                 max-width: 1300px;
                 margin: 0 auto;
             }
