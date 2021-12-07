@@ -366,7 +366,7 @@
 .restaurant main .button__wrapper .pink-button {
   padding: 18px 50px 35px 50px;
 }
-@media screen and (min-width: 628px) {
+@media screen and (min-width: 600px) {
   .restaurant section h1 {
     width: 100%;
     max-width: 1300px;
