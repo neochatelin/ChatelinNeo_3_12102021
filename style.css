@@ -465,9 +465,9 @@ footer .footer__wrapper a i {
   margin-left: auto;
   margin-right: auto;
   font-size: medium;
+  transition: 0.25s;
 }
 .pink-button:hover {
-  transition: 0.25s;
   background: linear-gradient(#ff80e0, #a060e0);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 20px;
 }
