@@ -53,6 +53,7 @@ $Ternaire: #99E2D0;
                     margin: 0 14px 14px 14px;
                     @media screen and (min-width: 628px) {
                         margin: 0 auto;
+                        margin-bottom: 14px;
                     }
                     max-width: 600px;
                     & > p{
@@ -161,8 +162,8 @@ $Ternaire: #99E2D0;
             }
         }
     }
-    @media screen and (min-width: 600px) {
-        article {
+    @media screen and (min-width: 628px) {
+        section {
             h1{
                 width: 100%;
                 max-width: 1300px;
@@ -175,7 +176,7 @@ $Ternaire: #99E2D0;
                 width: auto;
                 max-width: 1300px;
                 margin: 0 auto;
-                section{
+                article{
                     width: auto;
                     min-width: 600px;
                 }

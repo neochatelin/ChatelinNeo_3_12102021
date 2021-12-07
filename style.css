@@ -214,6 +214,7 @@
 @media screen and (min-width: 628px) {
   .restaurant main section div article {
     margin: 0 auto;
+    margin-bottom: 14px;
   }
 }
 .restaurant main section div article > p {
@@ -365,13 +366,13 @@
 .restaurant main .button__wrapper .pink-button {
   padding: 18px 50px 35px 50px;
 }
-@media screen and (min-width: 600px) {
-  .restaurant article h1 {
+@media screen and (min-width: 628px) {
+  .restaurant section h1 {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
   }
-  .restaurant article div:nth-child(2) {
+  .restaurant section div:nth-child(2) {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -379,7 +380,7 @@
     max-width: 1300px;
     margin: 0 auto;
   }
-  .restaurant article div:nth-child(2) section {
+  .restaurant section div:nth-child(2) article {
     width: auto;
     min-width: 600px;
   }
