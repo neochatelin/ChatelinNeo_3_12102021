@@ -366,11 +366,11 @@
     opacity: 100%;
   }
 }
-.restaurant main .button-wrapper {
+.restaurant main .button__wrapper {
   background-color: #f7f7f7;
   padding: 46px 0 58px 0;
 }
-.restaurant main .button-wrapper button {
+.restaurant main .button__wrapper button {
   display: block;
   color: white;
   background: linear-gradient(#FF79DA, #9356DC);
