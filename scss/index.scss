@@ -56,6 +56,10 @@ $Ternaire: #99E2D0;
                         min-width: 300px;
                         max-width: 400px;
                         margin: 1em auto !important;
+                        transition: 0.25s transform ease-in-out;
+                        &:hover{
+                            transform: scale(1.05);
+                        }
                     }
                 }
             }

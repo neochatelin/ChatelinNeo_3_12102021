@@ -59,6 +59,10 @@
     min-width: 300px;
     max-width: 400px;
     margin: 1em auto !important;
+    transition: 0.25s transform ease-in-out;
+  }
+  #index main #restaurants .restaurants__wrapper .card:hover {
+    transform: scale(1.05);
   }
 }
 #index main #fonctionnement {
