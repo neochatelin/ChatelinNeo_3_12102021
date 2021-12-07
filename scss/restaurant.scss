@@ -51,6 +51,9 @@ $Ternaire: #99E2D0;
                 margin: 0 auto;
                 article{
                     margin: 0 14px 14px 14px;
+                    @media screen and (min-width: 628px) {
+                        margin: 0 auto;
+                    }
                     max-width: 600px;
                     & > p{
                         text-transform: uppercase;

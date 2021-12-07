@@ -211,6 +211,11 @@
   margin: 0 14px 14px 14px;
   max-width: 600px;
 }
+@media screen and (min-width: 628px) {
+  .restaurant main section div article {
+    margin: 0 auto;
+  }
+}
 .restaurant main section div article > p {
   text-transform: uppercase;
   margin-top: 30px;
