@@ -44,7 +44,7 @@
     height: 300px;
   }
   #index main #restaurants {
-    padding: 20px 20px !important;
+    padding: 20px !important;
     border-radius: 30px;
     margin: 1em 1em 3em 1em;
     width: auto;
@@ -60,9 +60,6 @@
     max-width: 400px;
     margin: 1em auto !important;
     transition: 0.25s transform ease-in-out;
-  }
-  #index main #restaurants .restaurants__wrapper .card:hover {
-    transform: scale(1.05);
   }
 }
 #index main #fonctionnement {
@@ -128,6 +125,10 @@
   background-color: white;
   margin: 2em auto;
   box-shadow: rgba(0, 0, 0, 0.082) 0px 2px 5px;
+  transition: 0.25s transform ease-in-out;
+}
+#index main #restaurants .card:hover {
+  transform: scale(1.05);
 }
 #index main #restaurants .card .card__new {
   align-self: flex-end;
@@ -204,6 +205,7 @@
   width: 100%;
   max-width: 1300px;
   overflow: hidden;
+  margin: 0 auto;
 }
 .restaurant main section div article {
   margin: 0 auto 14px auto;
