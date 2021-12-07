@@ -5,6 +5,8 @@ $Ternaire: #99E2D0;
 .restaurant{
     header{
         text-align: center;
+        max-width: 1300px;
+        margin: 0 auto;
         h1{
             margin: 22px 0;
         }
@@ -80,6 +82,10 @@ $Ternaire: #99E2D0;
                         max-height: 70px;
                         margin-top: 14px;
                         box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 20%);
+                        transition: 0.2s transform;
+                        &:hover{
+                            transform: scale(1.05);
+                        }
                         .menu__item{
                             display: flex;
                             flex-wrap: nowrap;

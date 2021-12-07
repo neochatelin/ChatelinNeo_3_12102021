@@ -162,6 +162,8 @@
 
 .restaurant header {
   text-align: center;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 .restaurant header h1 {
   margin: 22px 0;
@@ -241,6 +243,10 @@
   max-height: 70px;
   margin-top: 14px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.2s transform;
+}
+.restaurant main section div article .menu__card:hover {
+  transform: scale(1.05);
 }
 .restaurant main section div article .menu__card .menu__item {
   display: flex;
