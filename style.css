@@ -185,36 +185,37 @@
   height: 258px;
   object-fit: cover;
 }
-.restaurant main article {
-  padding: 0 14px;
+.restaurant main section {
   background-color: #f7f7f7;
   text-align: left;
   margin-top: -38px;
   border-radius: 38px 38px 0 0;
   width: auto;
 }
-.restaurant main article h1 {
+.restaurant main section h1 {
+  margin: 0 2%;
   padding-top: 30px;
   padding-left: 5px;
 }
-.restaurant main article h1 input {
+.restaurant main section h1 input {
   margin-right: 25px;
 }
-.restaurant main article div {
+.restaurant main section div {
   width: 100%;
   max-width: 1300px;
   overflow: hidden;
 }
-.restaurant main article div section {
+.restaurant main section div article {
+  margin: 0 14px 15px 14px;
   max-width: 600px;
 }
-.restaurant main article div section > p {
+.restaurant main section div article > p {
   text-transform: uppercase;
   margin-top: 30px;
   margin-left: 6px;
   padding-bottom: 2px;
 }
-.restaurant main article div section > p::after {
+.restaurant main section div article > p::after {
   content: "";
   display: block;
   background-color: #9ae3d1;
@@ -222,7 +223,7 @@
   height: 3px;
   transform: translateY(2px);
 }
-.restaurant main article div section .menu__card {
+.restaurant main section div article .menu__card {
   display: flex;
   flex-wrap: nowrap;
   cursor: pointer;
@@ -233,7 +234,7 @@
   margin-top: 14px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.restaurant main article div section .menu__card .menu__item {
+.restaurant main section div article .menu__card .menu__item {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -242,22 +243,22 @@
   border-radius: 14px;
   width: 100%;
 }
-.restaurant main article div section .menu__card .menu__item div {
+.restaurant main section div article .menu__card .menu__item div {
   background-color: white;
 }
-.restaurant main article div section .menu__card .menu__item div .menu__title {
+.restaurant main section div article .menu__card .menu__item div .menu__title {
   font-weight: bold;
 }
-.restaurant main article div section .menu__card .menu__item div p {
+.restaurant main section div article .menu__card .menu__item div p {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
-.restaurant main article div section .menu__card .menu__item .price {
+.restaurant main section div article .menu__card .menu__item .price {
   display: flex;
   align-items: flex-end;
 }
-.restaurant main article div section .menu__card .animated__check {
+.restaurant main section div article .menu__card .animated__check {
   transition: 0.25s;
   display: flex;
   font-size: 20px;
@@ -267,76 +268,76 @@
   width: 0;
   height: 69px;
 }
-.restaurant main article div section .menu__card .animated__check i {
+.restaurant main section div article .menu__card .animated__check i {
   transition: 0.25s;
   margin: auto;
   transform: rotate(0deg);
 }
-.restaurant main article div section .menu__card:hover .animated__check {
+.restaurant main section div article .menu__card:hover .animated__check {
   color: white;
   transition: 0.5s;
   width: 59px;
 }
-.restaurant main article div section .menu__card:hover .animated__check i {
+.restaurant main section div article .menu__card:hover .animated__check i {
   transition: 0.5s;
   transform: rotate(360deg);
 }
-.restaurant main article div section:nth-child(1) .menu-card:nth-child(2) {
+.restaurant main section div section:nth-child(1) .menu-card:nth-child(2) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 1.25s;
 }
-.restaurant main article div section:nth-child(1) .menu-card:nth-child(3) {
+.restaurant main section div section:nth-child(1) .menu-card:nth-child(3) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 1.5s;
 }
-.restaurant main article div section:nth-child(1) .menu-card:nth-child(4) {
+.restaurant main section div section:nth-child(1) .menu-card:nth-child(4) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 1.75s;
 }
-.restaurant main article div section:nth-child(1) .menu-card:nth-child(5) {
+.restaurant main section div section:nth-child(1) .menu-card:nth-child(5) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 2s;
 }
-.restaurant main article div section:nth-child(2) .menu-card:nth-child(2) {
+.restaurant main section div section:nth-child(2) .menu-card:nth-child(2) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 2s;
 }
-.restaurant main article div section:nth-child(2) .menu-card:nth-child(3) {
+.restaurant main section div section:nth-child(2) .menu-card:nth-child(3) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 2.25s;
 }
-.restaurant main article div section:nth-child(2) .menu-card:nth-child(4) {
+.restaurant main section div section:nth-child(2) .menu-card:nth-child(4) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 2.5s;
 }
-.restaurant main article div section:nth-child(2) .menu-card:nth-child(5) {
+.restaurant main section div section:nth-child(2) .menu-card:nth-child(5) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 2.75s;
 }
-.restaurant main article div section:nth-child(3) .menu-card:nth-child(2) {
+.restaurant main section div section:nth-child(3) .menu-card:nth-child(2) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 2.75s;
 }
-.restaurant main article div section:nth-child(3) .menu-card:nth-child(3) {
+.restaurant main section div section:nth-child(3) .menu-card:nth-child(3) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 3s;
 }
-.restaurant main article div section:nth-child(3) .menu-card:nth-child(4) {
+.restaurant main section div section:nth-child(3) .menu-card:nth-child(4) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 3.25s;
 }
-.restaurant main article div section:nth-child(3) .menu-card:nth-child(5) {
+.restaurant main section div section:nth-child(3) .menu-card:nth-child(5) {
   opacity: 0;
   animation: menu-anim 0.5s forwards;
   animation-delay: 3.5s;
