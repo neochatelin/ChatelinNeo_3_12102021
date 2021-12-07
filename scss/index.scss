@@ -28,6 +28,8 @@ $Ternaire: #99E2D0;
         display: flex;
         @media screen and (max-width:768px) {
             flex-direction: column;
+        }
+        @media screen and (min-width:800px) {
             &{
                 justify-self: center;
                 flex-direction: row;
@@ -79,6 +81,7 @@ $Ternaire: #99E2D0;
                 padding-left: 35px;
                 margin-bottom: 25px;
                 box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 20%);
+                max-width: 300px;
                 &:hover{
                     transition: 0.2s;
                     background-color: #f6eeff;

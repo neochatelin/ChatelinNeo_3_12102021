@@ -31,6 +31,8 @@
   #index main {
     flex-direction: column;
   }
+}
+@media screen and (min-width: 800px) {
   #index main {
     justify-self: center;
     flex-direction: row;
@@ -80,6 +82,7 @@
   padding-left: 35px;
   margin-bottom: 25px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
 }
 #index main #fonctionnement div:hover {
   transition: 0.2s;
