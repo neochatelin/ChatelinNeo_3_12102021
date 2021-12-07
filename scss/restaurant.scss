@@ -47,6 +47,8 @@ $Ternaire: #99E2D0;
                 }
             }
             div{
+                display: flexbox;
+                flex-wrap: wrap;
                 width: 100%;
                 max-width: 1300px;
                 overflow: hidden;
@@ -186,6 +188,9 @@ $Ternaire: #99E2D0;
                     min-width: 560px;
                     margin: 0 20px 20px 20px;
                 }
+            }
+            div article:nth-child(2){
+                order: 1;
             }
         }
     }
