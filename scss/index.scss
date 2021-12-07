@@ -67,7 +67,7 @@ $Ternaire: #99E2D0;
                     flex-wrap: wrap;
                     justify-content: center;
                     gap: 0 1em;
-                    .restaurants__card{
+                    .card{
                         min-width: 300px;
                         max-width: 400px;
                         margin: 1em auto !important;
@@ -132,7 +132,7 @@ $Ternaire: #99E2D0;
         #restaurants{
             padding: 60px 20px;
             background-color: #f7f7f7;
-            article{
+            .card{
                 display: flex;
                 flex-direction: column;
                 width: 100%;
