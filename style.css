@@ -214,22 +214,23 @@
   overflow: hidden;
   margin: 0 auto;
 }
-.restaurant main section div article {
+.restaurant main section div .menu {
   margin: 0 14px 14px 14px;
 }
 @media screen and (min-width: 628px) {
-  .restaurant main section div article {
+  .restaurant main section div .menu {
     margin: 0 auto;
     margin-bottom: 14px;
   }
 }
-.restaurant main section div article > p {
+.restaurant main section div .menu > h4 {
   text-transform: uppercase;
   margin-top: 30px;
   margin-left: 6px;
   padding-bottom: 2px;
+  font-weight: lighter;
 }
-.restaurant main section div article > p::after {
+.restaurant main section div .menu > h4::after {
   content: "";
   display: block;
   background-color: #9ae3d1;
@@ -237,7 +238,7 @@
   height: 3px;
   transform: translateY(2px);
 }
-.restaurant main section div article .menu__card {
+.restaurant main section div .menu .menu__card {
   display: flex;
   flex-wrap: nowrap;
   cursor: pointer;
@@ -249,10 +250,10 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   transition: 0.2s transform;
 }
-.restaurant main section div article .menu__card:hover {
+.restaurant main section div .menu .menu__card:hover {
   transform: scale(1.02);
 }
-.restaurant main section div article .menu__card .menu__item {
+.restaurant main section div .menu .menu__card .menu__item {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -260,22 +261,22 @@
   border-radius: 14px;
   width: 100%;
 }
-.restaurant main section div article .menu__card .menu__item div {
+.restaurant main section div .menu .menu__card .menu__item div {
   background-color: white;
 }
-.restaurant main section div article .menu__card .menu__item div .menu__title {
+.restaurant main section div .menu .menu__card .menu__item div .menu__title {
   font-weight: bold;
 }
-.restaurant main section div article .menu__card .menu__item div p {
+.restaurant main section div .menu .menu__card .menu__item div p {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
-.restaurant main section div article .menu__card .menu__item .price {
+.restaurant main section div .menu .menu__card .menu__item .price {
   display: flex;
   align-items: flex-end;
 }
-.restaurant main section div article .menu__card .animated__check {
+.restaurant main section div .menu .menu__card .animated__check {
   transition: 0.25s;
   display: flex;
   font-size: 20px;
@@ -285,17 +286,17 @@
   width: 0;
   height: 69px;
 }
-.restaurant main section div article .menu__card .animated__check i {
+.restaurant main section div .menu .menu__card .animated__check i {
   transition: 0.25s;
   margin: auto;
   transform: rotate(0deg);
 }
-.restaurant main section div article .menu__card:hover .animated__check {
+.restaurant main section div .menu .menu__card:hover .animated__check {
   color: white;
   transition: 0.5s;
   width: 59px;
 }
-.restaurant main section div article .menu__card:hover .animated__check i {
+.restaurant main section div .menu .menu__card:hover .animated__check i {
   transition: 0.5s;
   transform: rotate(360deg);
 }
