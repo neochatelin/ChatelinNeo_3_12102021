@@ -46,7 +46,7 @@ $Ternaire: #99E2D0;
                     margin-right: 25px;
                 }
             }
-            div{
+            .meals{
                 display: flexbox;
                 flex-wrap: wrap;
                 width: 100%;
@@ -140,9 +140,9 @@ $Ternaire: #99E2D0;
                     }
                 }
                 @for $j from 1 to 4{
-                    section:nth-child(#{$j}){
+                    .menu:nth-child(#{$j}){
                         @for $i from 2 to 6 {
-                            .menu-card:nth-child(#{$i}){
+                            .menu__card:nth-child(#{$i}){
                                 opacity: 0;
                                 animation: menu-anim 0.5s forwards;
                                 animation-delay: 0.25s * ($i+$j*3);
