@@ -199,11 +199,12 @@
   width: auto;
   padding-bottom: 10px;
 }
-.restaurant main section h1 {
+.restaurant main section > p {
+  font-size: 25px;
   padding: 0 14px;
   padding-top: 30px;
 }
-.restaurant main section h1 input {
+.restaurant main section > p input {
   margin-right: 25px;
 }
 .restaurant main section .meals {
