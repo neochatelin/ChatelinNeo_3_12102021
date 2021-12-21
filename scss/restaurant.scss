@@ -39,10 +39,11 @@ $Ternaire: #99E2D0;
             border-radius: 38px 38px 0 0;
             width: auto;
             padding-bottom: 10px;
-            >p{
+            >h2{
                 font-size: 25px;
                 padding: 0 14px;
                 padding-top: 30px;
+                font-weight: lighter;
                 input{
                     margin-right: 25px;
                 }
@@ -60,12 +61,13 @@ $Ternaire: #99E2D0;
                         margin: 0 auto;
                         margin-bottom: 14px;
                     }
-                    & > h4{
+                    & > h3{
                         text-transform: uppercase;
                         margin-top: 30px;
                         margin-left: 6px;
                         padding-bottom: 2px;
                         font-weight: lighter;
+                        font-size: 16px;
                         &::after{
                             content: "";
                             display: block;

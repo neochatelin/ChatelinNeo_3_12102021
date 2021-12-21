@@ -199,12 +199,13 @@
   width: auto;
   padding-bottom: 10px;
 }
-.restaurant main section > p {
+.restaurant main section > h2 {
   font-size: 25px;
   padding: 0 14px;
   padding-top: 30px;
+  font-weight: lighter;
 }
-.restaurant main section > p input {
+.restaurant main section > h2 input {
   margin-right: 25px;
 }
 .restaurant main section .meals {
@@ -224,14 +225,15 @@
     margin-bottom: 14px;
   }
 }
-.restaurant main section .meals .menu > h4 {
+.restaurant main section .meals .menu > h3 {
   text-transform: uppercase;
   margin-top: 30px;
   margin-left: 6px;
   padding-bottom: 2px;
   font-weight: lighter;
+  font-size: 16px;
 }
-.restaurant main section .meals .menu > h4::after {
+.restaurant main section .meals .menu > h3::after {
   content: "";
   display: block;
   background-color: #9ae3d1;
